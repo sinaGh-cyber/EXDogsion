@@ -3,7 +3,7 @@ const msg = {
   txt: swapingOrder,
 };
 const defaultIconHandler = (tab) => {
-  console.log('I am runing');
+//   console.log('I am runing');
 
   chrome.tabs.sendMessage(tab.id, msg);
 };
